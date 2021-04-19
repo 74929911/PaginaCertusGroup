@@ -1,0 +1,20 @@
+body{
+    background: lightgray;
+}
+nav ul li {
+    float: left;
+    margin: 50px;
+}
+a{ color:blue;}
+.clearflix{
+clear: both;
+}
+header{
+    color: rgba(204, 16, 16, 0.603);
+}
+p{
+    color:rgba(0, 4, 255, 0.534);
+}
+h3{
+    color: brown;
+}
