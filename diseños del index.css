@@ -50,6 +50,9 @@ overflow-x: hidden;}
 padding:0;
 box-sizing: border-box;}
 
+body{overflow-x: hidden;}
+
+
 
 .parrafos{
 font-size:25px;
