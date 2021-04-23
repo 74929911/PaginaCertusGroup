@@ -3,7 +3,6 @@
 .links{font-size: 20px;
 background-color: rgb(80, 80, 80);
 width:100%;
-padding:0.7;
 position:fixed;
 z-index:1;
 padding:0.4em
@@ -13,7 +12,7 @@ padding:0.4em
 .links__a{
 margin-left:1em;
 text-decoration: none;
-color:rgb(255, 255, 255);
+color:rgb(229, 255, 0);
 font-family: 'Ruslan Display';
 text-shadow: 0 0 10px rgb(7, 218, 0),
 0 0 10px rgb(46, 197, 0);}
@@ -31,7 +30,7 @@ border-radius:3.125em;}
 
 
 .titulo{font-size: 30px;
-color:white;
+color:rgb(255, 0, 0);
 position:relative;
 left:4em;
 top:5em;
@@ -62,7 +61,7 @@ position:relative;
 top:8em;
 left:4.2em;
 font-family: 'Ruslan Display';
-font: weight 0.3125em;}
+font-weight: 0.3125em;}
 
 
 .starflamer{color:rgb(45, 206, 255);}
@@ -76,7 +75,7 @@ overflow-x: hidden;
 font-size:20px}
 
 .titulo2{
-font-size:20px;
+font-size:1.25rem;
 color: rgb(0, 0, 0);
 background:rgb(222, 236, 25);
 display:inline-block;
