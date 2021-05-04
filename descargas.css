@@ -1,5 +1,6 @@
 h1{color: rgb(47, 0, 255);font-size: 40px;}
 
+
 h2{color: rgba(250, 255, 220, 0.904);font-size: 20px;}
 
 pre, p {
@@ -8,8 +9,18 @@ pre, p {
     background-color: transparent;
 }
 
-body{
-    background-image: url("https://static.videezy.com/system/resources/thumbnails/000/047/433/original/bfw1.PNG")
+
+body{background-image: url(https://cdnb.artstation.com/p/assets/images/images/010/036/499/large/kieran-baker-playstation-neon-logos.jpg?1522214830);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+
+
+
+
+
+
 }
-
-
