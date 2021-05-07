@@ -1,0 +1,17 @@
+h1{color: rgb(47, 0, 255);font-size: 40px;}
+
+
+h2{color: rgba(250, 255, 220, 0.904);font-size: 20px;}
+
+pre, p {
+    font-size: 1.5em;
+    color: blue
+    background-color: transparent;
+}
+
+
+body{background-image: url(https://cdnb.artstation.com/p/assets/images/images/010/036/499/large/kieran-baker-playstation-neon-logos.jpg?1522214830);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
