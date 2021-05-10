@@ -1,0 +1,53 @@
+
+body{background:url(https://i.pinimg.com/originals/d6/0b/fb/d60bfb79b23c28a2b50270e2bf623ca7.jpg) no-repeat;
+background-size: cover;
+background-attachment: fixed;
+	
+}
+h1{
+	color: rgb(88, 230, 215);
+      
+}
+
+
+li{color: aliceblue;
+}
+p{color: aqua;
+
+}
+
+
+
+img{border-radius:1cm;
+
+
+}
+
+
+.links{
+	font-size:18px;
+	background-color:rgb(58, 58, 58) ;
+	width:100%;
+	display:flex;
+	justify-content: space-around;
+	padding:0.1em;
+	position:fixed
+	}
+	
+	.links__a{
+	font-size:1.1em;
+	color:white;
+	text-decoration:none;
+	font-family:'Antonio';
+	text-shadow:0 0 1.5em white,
+	0 0 1.5em white,
+	0 0 1.5em white
+	}
+
+
+
+
+
+
+
+
