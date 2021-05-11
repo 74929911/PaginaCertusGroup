@@ -2,9 +2,12 @@
     margin: 0px;
 }
 
-body{
-    background: rgb(17, 17, 17);
+body{background:url(https://fondosmil.com/fondo/19467.jpg) no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    
 }
+
 
 nav ul li {
     float: left;
