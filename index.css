@@ -1,12 +1,11 @@
 ul{
-background:rgb(58, 58, 58);
+background:rgb(0, 0, 0);
 list-style-type: none;
 padding:0;
 margin:0;
 position:fixed;
 width:100%;
 margin-top:-47px;
-box-sizing: border-box;
 }
 
 ul li{
@@ -20,46 +19,148 @@ padding: 13px 13px;
 display:inline-block;
 font-size:20px;
 font-family: 'Noto Sans JP', sans-serif;
+transition: background .5s
 }
 
 ul li a:hover{
-background:rgb(102, 102, 102)
+background:rgb(61, 61, 61)
 }
 
 ul li a:active{
-background:rgb(145, 145, 145)
+background:rgb(104, 104, 104)
 }
 
-.fondo{
-background-image:url(IndexPrincipal/mejoraletra.jpg);
+.portada{
+background-image:url(IndexPrincipal/StarFlamer.jpg);
 width:100%;
-height:550px;
+height:450px;
 background-size: 100% 100%;
 }
 
- .parte2{
-background-color:rgb(49, 49, 49);
-width:100%;
-height:600px;
+
+
+.parte2__div-h1{
+font-size:45px;
+font-family: 'Anton', sans-serif;
+color:white
 }
 
-/* .espacio{
-width:100%;
-height:200px;
-display:flex;
-padding-top:33px
+.parte2__div-p,.parte2__div-p-1{
+font-family:'Noto Sans JP', sans-serif;
+font-size:18px;
+color:white
 }
 
-.juego{
-width:269.9px;
-height:100%;
-} */ 
+.parte2__div-img{
+width:210px;
+height:210x;
+}
+
+.parte2__div{
+width:35%;
+border-top:4px solid rgb(0, 217, 255) ;
+border-bottom:4px solid rgb(211, 45, 197);
+padding:7px;
+box-sizing:border-box;
+margin-left:8px;
+display:inline-block;
+margin-top:40px
+}
+
+.parte3__div-h2{
+font-size:40px;
+font-family: 'Permanent Marker', cursive;
+color:rgb(221, 207, 13);
+}
+
+.parte3__div-p{
+font-size:18px;
+font-family:'Noto Sans JP', sans-serif;
+color:white
+}
+
+.parte3__div{
+/* background-color:darkred; */
+width:30%;
+height:500px;
+background-color:tomato
+}
+
+
+.parte4__div{
+/* background:blueviolet; */
+width:30%;
+height:500px;
+background-color:yellowgreen
+}
+
+
+.parte4__div-h2{
+font-size:30px;
+font-family: 'Permanent Marker', cursive;
+color:rgb(44, 177, 187)
+}
+
+.parte4__div-p{
+font-size:18px;
+font-family:'Noto Sans JP', sans-serif;
+color:white;
+}
+
+.orden{
+background:skyblue;
+}
+
+.parte3__div,.parte4__div,.parte5__div,.parte6__div{
+float:left;
+margin-top:50px
+}
+
+.parte5__div-h2{
+font-size:30px;
+font-family: 'Permanent Marker', cursive;
+color:tomato
+}
+
+.parte5__div-p{
+font-size:18px;
+font-family:'Noto Sans JP', sans-serif;
+color:white;
+}
+
+.parte5__div{
+width:30%;
+height:500px;
+background-color:yellow
+}
+
+.parte6__div-h2{
+font-size:30px;
+font-family: 'Permanent Marker', cursive;
+color:rgb(0, 255, 55)
+}
+
+.parte6__div-p{
+font-size:18px;
+font-family:'Noto Sans JP', sans-serif;
+color:white;
+}
+
+.parte6__div{
+width:30%;
+height:500px;
+margin-left:auto;
+margin-right:auto;
+background-color:teal
+}
 
 
 *{
 margin:0;
 padding:0
 }
+
 body{
-margin-top:40px
+margin-top:40px;
+background-color:rgb(20, 20, 20)
 }
