@@ -10,7 +10,7 @@ h1{
 }
 
 
-li{color: aliceblue;
+h5{color: aliceblue;
 }
 p{color: aqua;
 
@@ -24,26 +24,39 @@ img{border-radius:1cm;
 }
 
 
-.links{
-	font-size:18px;
-	background-color:rgb(58, 58, 58) ;
+	
+	
+ul{
+	background:rgb(0, 0, 0);
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	position:fixed;
 	width:100%;
-	display:flex;
-	justify-content: space-around;
-	padding:0.1em;
-	position:fixed
+	margin-top:-47px;
 	}
 	
-	.links__a{
-	font-size:1.1em;
-	color:white;
-	text-decoration:none;
-	font-family:'Antonio';
-	text-shadow:0 0 1.5em white,
-	0 0 1.5em white,
-	0 0 1.5em white
+	ul li{
+	display:inline-block;
 	}
-
+	
+	ul li a{
+	color:white;
+	text-decoration: none;
+	padding: 25px 25px;
+	display:inline-block;
+	font-size:20px;
+	font-family: 'Noto Sans JP', sans-serif;
+	transition: background .5s
+	}
+	
+	ul li a:hover{
+	background:rgb(61, 61, 61)
+	}
+	
+	ul li a:active{
+	background:rgb(104, 104, 104)
+	}
 
 
 
