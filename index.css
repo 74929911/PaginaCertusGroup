@@ -6,6 +6,7 @@ margin:0;
 position:fixed;
 width:100%;
 margin-top:-47px;
+z-index:451
 }
 
 ul li{
@@ -82,8 +83,14 @@ font-size:60px;
 font-family: 'Permanent Marker', cursive;
 color:rgb(221, 207, 13);
 margin-bottom:-19px;
-padding:10px
-}
+padding:10px;
+text-decoration: none;
+display:inline-block;
+position:relative;
+left:167px}
+
+
+
 
 .parte3__div-p{
 font-size:18px;
@@ -164,7 +171,18 @@ width:50%
 font-size:40px;
 font-family: 'Permanent Marker', cursive;
 color:rgb(30, 120, 204);
-margin-top:20px;
+text-align: center;
+text-decoration: none;
+display:inline-block}
+
+.titulo2-a{
+text-decoration: none;
+}
+.titulo3-a{
+text-decoration: none;
+}
+.titulo4-a{
+text-decoration: none;
 }
 
 .parte4__div-p{
@@ -264,7 +282,9 @@ margin-top:-70px;
 font-size:45px;
 font-family: 'Permanent Marker', cursive;
 text-align: center;
-color:rgb(255, 128, 55)
+color:rgb(255, 94, 0);
+display:inline-block;
+margin-left:470px
 }
 
 .parte5__div-p{
@@ -294,8 +314,8 @@ margin-left:20px;
 }
 
 .alice:hover{
-width:420px;
-height:260px
+width:422px;
+height:262px;
 }
 
 .marvelvscapcom{
@@ -306,8 +326,8 @@ margin-left:20px;
 }
 
 .marvelvscapcom:hover{
-width:420px;
-height:260px
+width:422px;
+height:262px
 }
 
 .metal{
@@ -317,8 +337,8 @@ transition:width .7s,height .7s;
 margin-left:20px
 }
 .metal:hover{
-width:420px;
-height:260px
+width:422px;
+height:262px
 }
 
 .gta{
@@ -329,8 +349,8 @@ margin-left:10px;
 margin-left:20px
 }
 .gta:hover{
-width:420px;
-height:260px;
+width:422px;
+height:262px;
 }
 
 .prototype2{
@@ -342,14 +362,15 @@ margin-left:20px
 }
 
 .prototype2:hover{
-width:420px;
-height:260px;
+width:422px;
+height:262px;
 }
 
 .parte6__div-h2{
 font-size:45px;
 font-family: 'Permanent Marker', cursive;
 color:rgb(0, 255, 55);
+display:inline-block
 }
 
 .parte6__div-p{
@@ -410,7 +431,7 @@ margin-right:15px;
 
 dl{
 display:flex;
-justify-content: space-around;
+justify-content:space-evenly;
 }
 .dl__dt-a{
 color:white;
@@ -419,20 +440,16 @@ text-decoration: none;
 font-family:'Noto Sans JP', sans-serif;
 }
 
-.footer__h4{
-color:white;
-font-family:'Noto Sans JP', sans-serif;
-text-align: center;
-color:rgb(0, 140, 255);
-}
 
 .footer__p{
 color:rgb(0, 225, 255);
 font-size:20px;
 text-align:center;
-font-family:'Noto Sans JP', sans-serif;
+font-family: 'Press Start 2P', cursive;
 padding:10px
 }
+
+
 
 *{
 margin:0;
