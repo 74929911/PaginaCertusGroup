@@ -310,7 +310,9 @@ height:290px;
 text-align:center;
 display:flex;
 overflow: auto;
-overflow-y: hidden
+overflow-y: hidden;
+padding-top:13px;
+padding-bottom:13px;
 }
 
 .alice{
@@ -323,6 +325,7 @@ margin-left:20px;
 .alice:hover{
 width:422px;
 height:262px;
+box-shadow:0 0 15px white
 }
 
 .marvelvscapcom{
@@ -334,7 +337,8 @@ margin-left:20px;
 
 .marvelvscapcom:hover{
 width:422px;
-height:262px
+height:262px;
+box-shadow:0 0 15px white
 }
 
 .metal{
@@ -345,7 +349,8 @@ margin-left:20px
 }
 .metal:hover{
 width:422px;
-height:262px
+height:262px;
+box-shadow:0 0 15px white
 }
 
 .gta{
@@ -358,6 +363,7 @@ margin-left:20px
 .gta:hover{
 width:422px;
 height:262px;
+box-shadow:0 0 15px white
 }
 
 .prototype2{
@@ -371,6 +377,7 @@ margin-left:20px
 .prototype2:hover{
 width:422px;
 height:262px;
+box-shadow:0 0 15px white
 }
 
 .parte6__div-h2{
