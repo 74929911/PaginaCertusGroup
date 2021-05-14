@@ -1,11 +1,25 @@
 div{
-background-color:chocolate;
-height:657px;
-width:1366px
+    width:30%;
+    height:500px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:teal;
+    text-align:center;
+    display:flex
 }
 
+div .div{
+height:300px;
+width:300px;
+background:chocolate;
+position:relative;
+top:140px
+
+
+}
 *{
 margin:0;
 padding:0
-}
+
+
 

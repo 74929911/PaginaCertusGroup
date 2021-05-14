@@ -8,11 +8,17 @@ body{background-image: url(https://images3.alphacoders.com/130/13079.jpg);
 h1{
     color: blue;
     font-kerning: auto;
+    margin-top: 25px;
+    margin-right: 25px; 
+    margin-bottom: 25px;
 }
 
 h2{
     color: dodgerblue;
      font: oblique bold 120% cursive;
+     margin-top: 25px;
+     margin-right: 25px; 
+     margin-bottom: 25px;
     
 }
 
@@ -20,6 +26,9 @@ a{
     color: ghostwhite;
 }
 
+img{
+    text-align: center;
+}
 
 ul{
 	background:rgb(0, 0, 0);
