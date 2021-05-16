@@ -59,6 +59,13 @@ box-sizing: border-box;
 .videoApex{
 margin-top:20px
 }
+.Barra-Apex{
+width:1400px;
+height:400px;
+display:flex;
+overflow-x: auto;
+}
+
 
 .Fondo1-1{
 width:1366px;
