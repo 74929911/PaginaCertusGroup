@@ -2,22 +2,45 @@
     margin: 0px;
 }
 
-body{background:url(https://fondosmil.com/fondo/19467.jpg) no-repeat;
-    background-attachment:fixed;
+body{
+    /*background: rgb(17, 17, 17);*/
+    background-image: url(https://fondosmil.com/fondo/19467.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    
+}
+ul{
+    list-style-type: none;
+    position:fixed;
+    width: 100%;
+    background: #000;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
 }
 
-
-
-a{ color:blue;}
-.clearflix{
-clear: both;
+ul li{
+    display: inline-block;
 }
 
-h1{
+ul li a{
+    padding: 13px 13px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul li a:hover{
+    background:rgb(61, 61, 61)
+    }
+
+
+
+header{
     color:red;
-    
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 0px;
@@ -28,47 +51,20 @@ p{
     color:white;
 }
 
-h3{
+h1{
     color:red;
 }
 
 h2{
-    color: orange;
+    color: rgb(251, 255, 0);
 }
 
 a{
     color: yellow;
 }
 
+h3{
+    color: rgb(15, 209, 209);
+}
 
-ul{
-	background:rgb(0, 0, 0);
-	list-style-type: none;
-	padding:0;
-	margin:0;
-	position:fixed;
-	width:100%;
-	margin-top:-47px;
-	}
-	
-	ul li{
-	display:inline-block;
-	}
-	
-	ul li a{
-	color:white;
-	text-decoration: none;
-	padding: 20px 20px;
-	display:inline-block;
-	font-size:20px;
-	font-family: 'Noto Sans JP', sans-serif;
-	transition: background .5s
-	}
-	
-	ul li a:hover{
-	background:rgb(61, 61, 61)
-	}
-	
-	ul li a:active{
-	background:rgb(104, 104, 104)
-	}
+    
