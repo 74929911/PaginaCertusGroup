@@ -33,7 +33,7 @@ background:rgb(104, 104, 104)
 
 .fondo2{
 width:1366px;
-height:617px;
+height:670px;
 background-image:url(../IndexPrincipal/fondo1gen1.jpg);
 background-size:100% 100%
 }
@@ -48,18 +48,20 @@ color:rgb(255, 255, 255)
 color:rgb(0, 0, 0);
 font-family: 'Rubik', sans-serif;
 box-sizing: border-box;
-font-size:18px;
+font-size:10;
+margin-bottom:12px
+}
+
+.video{
+padding:11px
 }
 
 .Fondo2__div{
-width:600px;
-text-align: center;
-margin-right:auto;
-margin-left:auto;
-position:relative;
-top:80px;
-border:3px solid rgb(255, 255, 255);
-padding:20px
+width:690px;
+margin-left:8px;
+font-size:16px;
+font-family:'Noto Sans JP', sans-serif;
+box-sizing: border-box;
 }
 
 .Fondo2-1{
