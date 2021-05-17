@@ -1,0 +1,143 @@
+ul{
+background:rgb(0, 0, 0);
+list-style-type: none;
+padding:0;
+margin:0;
+position:fixed;
+width:100%;
+margin-top:-47px;
+z-index:451
+    }
+    
+ul li{
+display:inline-block;
+}
+    
+ul li a{
+color:white;
+text-decoration: none;
+padding: 13px 13px;
+display:inline-block;
+font-size:20px;
+font-family: 'Noto Sans JP', sans-serif;
+}
+    
+ul li a:hover{
+background:rgb(61, 61, 61)
+}
+    
+ul li a:active{
+background:rgb(104, 104, 104)
+}
+
+.Todo{
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+.fondo1{
+width:1366px;
+height:620px;
+background-image:url(../IndexPrincipal/FondoApex.jpg);
+background-size:cover;
+}
+
+.fondo__h1{
+font-size:70px;
+color:rgb(236, 136, 22);
+font-family: 'Anton';
+}
+
+.Fondo__div{
+width:690px;
+margin-left:8px;
+font-size:16px;
+font-family:'Noto Sans JP', sans-serif;
+box-sizing: border-box;
+color:rgb(255, 255, 255);
+font-weight: bolder;}
+
+
+
+
+.videoApex{
+margin-top:40px
+}
+
+
+/* .Barra-Apex{
+width:1366px;
+height:550px;
+padding-top:80px;
+background-image:url(../IndexPrincipal/fondoapexnew.jpg);
+background-size:cover
+}
+
+.Barra-Apex__div{
+display:flex;
+justify-content: center;
+margin-right:18px
+}
+
+.Apex2,.Apex1,.Apex3{
+width:430px;
+height:430px;
+position:relative;
+top:18px;
+margin-right:10px;
+margin-left:10px
+} */
+
+
+
+.Fondo1-1{
+width:1366px;
+height:620px;
+background-image: url(../IndexPrincipal/apexnuevo12.png);
+background-size:100% 100%;
+background-color:rgb(255, 255, 255)
+
+}
+
+.Fondo1-1__p{
+width:690px;
+font-size:16px;
+font-family:'Noto Sans JP', sans-serif;
+box-sizing: border-box;
+margin-right:15px;
+float:right;
+font-weight: bolder;
+
+}
+
+.Fondo__p1{
+font-size:20px;
+margin:5px 0 5px 0;
+color:rgb(255, 0, 0)
+}
+
+.Fondo__p3{
+font-size:20px;
+margin:5px 0 5px 0;
+color:rgb(255, 0, 0)
+}
+
+.Fondo__p5{
+font-size:20px;
+margin:5px 0 5px 0;
+color:rgb(255, 0, 0)
+} 
+
+
+
+*{
+margin:0;
+padding:0
+}
+
+body{
+margin-top:40px;
+overflow-x:hidden
+}
+
+

@@ -1,0 +1,78 @@
+
+body{background:url(https://i.pinimg.com/originals/d6/0b/fb/d60bfb79b23c28a2b50270e2bf623ca7.jpg) no-repeat;
+background-size: cover;
+background-attachment: fixed;
+	
+}
+
+
+
+
+h5{color: aliceblue;
+}
+p{color: aqua;
+
+}
+
+
+
+img{border-radius:1cm;
+
+
+}
+
+
+	
+	
+ul{
+	background:rgb(0, 0, 0);
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	position:fixed;
+	width:100%;
+	margin-top:-47px;
+	}
+	
+	ul li{
+	display:inline-block;
+	}
+	
+	ul li a{
+	color:white;
+	text-decoration: none;
+	padding: 25px 25px;
+	display:inline-block;
+	font-size:20px;
+	font-family: 'Noto Sans JP', sans-serif;
+	transition: background .5s
+	}
+	
+	ul li a:hover{
+	background:rgb(61, 61, 61)
+	}
+	
+	ul li a:active{
+	background:rgb(104, 104, 104)
+	}
+
+
+    .primeros{font-size:40px;
+font-family: 'Permanent Marker', cursive;
+color:rgb(8, 253, 253);
+text-align: center;
+text-decoration: none;
+display:inline-block}
+
+
+
+
+		
+
+
+
+	
+
+
+
+
