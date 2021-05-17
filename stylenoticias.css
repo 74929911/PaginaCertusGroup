@@ -16,10 +16,15 @@ p{color: aqua;
 
 
 
-img{border-radius:1cm;
-
+.img-center{ position: absolute;
+	transition: width .9s,height .9s
+}
+.img-center:hover{
+	width:120px;
+	height:100px
 
 }
+
 
 
 	
@@ -65,8 +70,150 @@ text-decoration: none;
 display:inline-block}
 
 
+.capitulo1{
+	border-radius: 0.5cm;
+	width:160px;
+	height:100px;
+	margin-left:10px;
+	box-sizing: border-box;
+	transition: width .7s,height .7s
+	
+}
+
+	.capitulo1:hover{
+	width:300px;
+	height:190px
+	}
+		
+
+	.capitulo2{
+		border-radius: 0.5cm;
+		width:160px;
+		height:100px;
+		margin-left:10px;
+		box-sizing: border-box;
+		transition: width .7s,height .7s
+		
+	}
+	
+		.capitulo2:hover{
+		width:300px;
+		height:190px
+		}
 
 
+
+		.capitulo3{
+			border-radius: 0.5cm;
+			width:160px;
+			height:100px;
+			margin-left:10px;
+			box-sizing: border-box;
+			transition: width .7s,height .7s
+			
+		}
+		
+			.capitulo3:hover{
+			width:300px;
+			height:190px
+			}
+
+			.capitulo4{
+				border-radius: 0.5cm;
+				width:160px;
+				height:100px;
+				margin-left:10px;
+				box-sizing: border-box;
+				transition: width .7s,height .7s
+				
+			}
+			
+				.capitulo4:hover{
+				width:300px;
+				height:191px
+				}
+
+
+				.capitulo5{
+					border-radius: 0.5cm;
+					width:160px;
+					height:100px;
+					margin-left:10px;
+					box-sizing: border-box;
+					transition: width .7s,height .7s
+					
+				}
+				
+					.capitulo5:hover{
+					width:300px;
+					height:190px
+					}
+
+					.capitulo6{
+						border-radius: 0.5cm;
+						width:160px;
+						height:100px;
+						margin-left:10px;
+						box-sizing: border-box;
+						transition: width .7s,height .7s
+						
+					}
+					
+						.capitulo6:hover{
+						width:300px;
+						height:190px
+						}
+
+						.capitulo7{
+							border-radius: 0.5cm;
+							width:160px;
+							height:100px;
+							margin-left:10px;
+							box-sizing: border-box;
+							transition: width .7s,height .7s
+							
+						}
+						
+							.capitulo7:hover{
+							width:300px;
+							height:190px
+							}
+
+
+							.capitulo8{
+								border-radius: 0.5cm;
+								width:160px;
+								height:100px;
+								margin-left:10px;
+								box-sizing: border-box;
+								transition: width .7s,height .7s
+								
+							}
+							
+								.capitulo8:hover{
+								width:300px;
+								height:190px
+								}
+
+								h1{ 
+									font-size:38px;
+									font-family:'Press Start 2P',cursive;
+									color:white
+									
+	
+								}
+	
+									.rayas{
+										width:35%;
+										border-top:3px solid rgb(0, 217, 255) ;
+										border-bottom:3px solid rgb(211, 45, 197);
+										padding:0cm
+										box-sizing:border-box;
+										margin-left:8px;
+										display:inline-block;
+										margin-top:40px;
+	
+									}
 		
 
 
