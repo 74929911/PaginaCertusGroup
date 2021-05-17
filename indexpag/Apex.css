@@ -38,8 +38,8 @@ overflow-x: hidden;
 .fondo1{
 width:1366px;
 height:620px;
-background-image:url(../IndexPrincipal/fondoApex.jpg);
-background-size:100% 100%;
+background-image:url(../IndexPrincipal/FondoApex.jpg);
+background-size:cover;
 font-weight: bolder;
 }
 
@@ -55,8 +55,11 @@ margin-left:8px;
 font-size:16px;
 font-family:'Noto Sans JP', sans-serif;
 box-sizing: border-box;
-color:rgb(255, 255, 255)}
+color:rgb(0, 0, 0)}
 
+.Fondo__p{
+color:black
+}
 
 
 .videoApex{
