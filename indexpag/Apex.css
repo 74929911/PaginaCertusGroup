@@ -38,14 +38,13 @@ overflow-x: hidden;
 .fondo1{
 width:1366px;
 height:620px;
-background-image:url(../IndexPrincipal/fondoApex2.jpg);
+background-image:url(../IndexPrincipal/FondoApex.jpg);
 background-size:cover;
-font-weight: bolder;
 }
 
 .fondo__h1{
 font-size:70px;
-color:white;
+color:rgb(236, 136, 22);
 font-family: 'Anton';
 }
 
@@ -55,23 +54,48 @@ margin-left:8px;
 font-size:16px;
 font-family:'Noto Sans JP', sans-serif;
 box-sizing: border-box;
-}
+color:rgb(255, 255, 255);
+font-weight: bolder;}
+
+
+
+
 .videoApex{
-margin-top:20px
+margin-top:40px
 }
-.Barra-Apex{
-width:1400px;
-height:400px;
+
+
+/* .Barra-Apex{
+width:1366px;
+height:550px;
+padding-top:80px;
+background-image:url(../IndexPrincipal/fondoapexnew.jpg);
+background-size:cover
+}
+
+.Barra-Apex__div{
 display:flex;
-overflow-x: auto;
+justify-content: center;
+margin-right:18px
 }
+
+.Apex2,.Apex1,.Apex3{
+width:430px;
+height:430px;
+position:relative;
+top:18px;
+margin-right:10px;
+margin-left:10px
+} */
+
 
 
 .Fondo1-1{
 width:1366px;
 height:620px;
-background-image: url(../IndexPrincipal/fondoApex1.jpg);
-background-size:cover;
+background-image: url(../IndexPrincipal/apexnuevo12.png);
+background-size:100% 100%;
+background-color:rgb(255, 255, 255)
 
 }
 
@@ -80,7 +104,7 @@ width:690px;
 font-size:16px;
 font-family:'Noto Sans JP', sans-serif;
 box-sizing: border-box;
-margin-right:40px;
+margin-right:15px;
 float:right;
 font-weight: bolder;
 
@@ -89,19 +113,19 @@ font-weight: bolder;
 .Fondo__p1{
 font-size:20px;
 margin:5px 0 5px 0;
-color:rgb(255, 255, 255)
+color:rgb(255, 0, 0)
 }
 
 .Fondo__p3{
 font-size:20px;
 margin:5px 0 5px 0;
-color:white
+color:rgb(255, 0, 0)
 }
 
 .Fondo__p5{
 font-size:20px;
 margin:5px 0 5px 0;
-color:white
+color:rgb(255, 0, 0)
 } 
 
 
@@ -113,6 +137,7 @@ padding:0
 
 body{
 margin-top:40px;
+overflow-x:hidden
 }
 
 

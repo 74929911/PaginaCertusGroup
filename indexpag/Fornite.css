@@ -1,0 +1,260 @@
+ul{
+background:rgb(0, 0, 0);
+list-style-type: none;
+padding:0;
+margin:0;
+position:fixed;
+width:100%;
+margin-top:-47px;
+z-index:451
+}
+        
+ul li{
+display:inline-block;
+}
+        
+ul li a{
+color:white;
+text-decoration: none;
+padding: 13px 13px;
+display:inline-block;
+font-size:20px;
+font-family: 'Noto Sans JP', sans-serif;
+}
+        
+ul li a:hover{
+background:rgb(61, 61, 61)
+}
+        
+ul li a:active{
+background:rgb(104, 104, 104)
+}
+  
+.Fondo1{
+width:1366px;
+height:617px;
+background-image:url(../IndexPrincipal/fondo-fornite1.jpg);
+background-size:100% 100%}
+
+
+.Fondo1__div-h1{
+font-size:80px;
+color:rgb(255, 255, 255);
+font-family: 'Anton';
+}
+
+.Fondo__div{
+width:690px;
+font-size:16px;
+font-family:'Noto Sans JP', sans-serif;
+box-sizing: border-box;
+margin-right:auto;
+margin-left:auto;
+text-align: center;
+font-weight: bolder;
+}
+
+.comentariox{
+width:1366px;
+height:700px;
+background-color:rgb(235, 232, 214)
+}
+
+
+
+
+
+
+
+.comentario__div-h2-1{
+font-family: 'Passion One', cursive;
+font-size:32px;
+color:rgb(0, 0, 0);
+margin-left:8px;
+padding-top:5px
+}
+
+.comentario__div-p-1,.comentario__div-p1-1{
+font-family:'Noto Sans JP', sans-serif;
+font-size:15px
+}
+
+.comentario__div1{
+width: 1000px;
+margin-left:8px;
+display:flex;
+margin-top:5px
+}
+
+.forniteimg{
+width:340px;
+margin-left:40px
+}
+
+.texto{
+width:600px;
+display:inline-block
+}
+
+
+
+
+
+
+.comentario1{
+width:1000px;
+margin-left:8px;
+display:flex;
+}
+
+.fornite2img{
+width:340px;
+margin-left:40px
+}
+
+.comentario1__h2{
+font-family: 'Passion One', cursive;
+font-size:32px;
+color:rgb(0, 0, 0);
+margin-left:8px
+}
+
+.comentario1__p,.comentario1__p1-1{
+font-family:'Noto Sans JP', sans-serif;
+font-size:15px
+}
+
+.texto2{
+width:600px;
+display:inline-block
+}
+
+
+
+
+
+.comentario2__h2{
+font-family: 'Passion One', cursive;
+font-size:32px;
+color:rgb(0, 0, 0);
+margin-left:8px
+}
+
+.comentario2__p,.comentario__p1{
+font-family:'Noto Sans JP', sans-serif;
+font-size:15px
+}
+
+.comentario2{
+margin-left:8px;
+width:1000px;
+display:flex
+}
+
+.fornite3img{
+width:340px;
+margin-left:40px
+}
+
+.texto3{
+display:inline-block;
+width:600px
+}
+
+
+
+
+/* segunda hoja */
+
+
+.comentario3{
+width:1366px;
+height:700px;
+background-color:rgb(233, 219, 140)
+}
+
+
+
+
+
+.comentario-3{
+float:right;
+position:relative;
+right:20px}
+
+
+.comentario3-1{
+width:600px;
+}
+
+.comentario3-1__h2{
+font-family: 'Passion One', cursive;
+font-size:32px;
+color:rgb(0, 0, 0);
+}
+
+.comentario3-1__p,.comentario-1__p1{
+font-family:'Noto Sans JP', sans-serif;
+font-size:15px;
+}
+
+
+
+
+
+
+
+.comentario4-p,.comentario-p1{
+font-family:'Noto Sans JP', sans-serif;
+font-size:15px 
+}
+
+.comentario4-h2{
+font-family: 'Passion One', cursive;
+font-size:32px;
+color:rgb(0, 0, 0)
+}
+
+.comentario4{
+width:600px
+}
+
+
+
+
+
+
+
+
+.comentario5-p,.comentario-p1{
+font-family:'Noto Sans JP', sans-serif;
+font-size:15px 
+}
+
+
+.comentario5{
+width:600px
+}
+
+
+.comentario5-h2{
+font-family: 'Passion One', cursive;
+font-size:32px;
+color:rgb(0, 0, 0)
+}
+
+
+
+
+
+
+
+*{
+margin:0;
+padding:0
+}
+    
+body{
+margin-top:40px;
+overflow-x: hidden;
+}
