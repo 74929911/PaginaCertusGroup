@@ -38,7 +38,7 @@ overflow-x: hidden;
 .fondo1{
 width:1366px;
 height:620px;
-background-image:url(../IndexPrincipal/FondoApex.jpg);
+background-image:url(../IndexPrincipal/ApexLegends/FondoApex.jpg);
 background-size:cover;
 }
 
@@ -65,35 +65,14 @@ margin-top:40px
 }
 
 
-/* .Barra-Apex{
-width:1366px;
-height:550px;
-padding-top:80px;
-background-image:url(../IndexPrincipal/fondoapexnew.jpg);
-background-size:cover
-}
 
-.Barra-Apex__div{
-display:flex;
-justify-content: center;
-margin-right:18px
-}
-
-.Apex2,.Apex1,.Apex3{
-width:430px;
-height:430px;
-position:relative;
-top:18px;
-margin-right:10px;
-margin-left:10px
-} */
 
 
 
 .Fondo1-1{
 width:1366px;
 height:620px;
-background-image: url(../IndexPrincipal/apexnuevo12.png);
+background-image: url(../IndexPrincipal/ApexLegends/apexnuevo12.png);
 background-size:100% 100%;
 background-color:rgb(255, 255, 255)
 
