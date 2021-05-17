@@ -40,7 +40,6 @@ width:1366px;
 height:620px;
 background-image:url(../IndexPrincipal/FondoApex.jpg);
 background-size:cover;
-font-weight: bolder;
 }
 
 .fondo__h1{
@@ -55,11 +54,10 @@ margin-left:8px;
 font-size:16px;
 font-family:'Noto Sans JP', sans-serif;
 box-sizing: border-box;
-color:rgb(0, 0, 0)}
+color:rgb(255, 255, 255);
+font-weight: bolder;}
 
-.Fondo__p{
-color:black
-}
+
 
 
 .videoApex{
@@ -67,7 +65,7 @@ margin-top:40px
 }
 
 
-.Barra-Apex{
+/* .Barra-Apex{
 width:1366px;
 height:550px;
 padding-top:80px;
@@ -88,7 +86,7 @@ position:relative;
 top:18px;
 margin-right:10px;
 margin-left:10px
-}
+} */
 
 
 
