@@ -1,7 +1,7 @@
 
 body{background:url(https://i.pinimg.com/originals/d6/0b/fb/d60bfb79b23c28a2b50270e2bf623ca7.jpg) no-repeat;
 background-size: cover;
-background-attachment: fixed;
+background-attachment:fixed;
 	
 }
 
@@ -18,7 +18,9 @@ p{color: aqua;
 
 .img-center{ position: absolute;
 	transition: width .9s,height .9s
+
 }
+
 .img-center:hover{
 	width:120px;
 	height:100px
@@ -35,7 +37,7 @@ ul{
 	padding:0;
 	margin:0;
 	position:fixed;
-	width:100%;
+	width:80%;
 	margin-top:-47px;
 	}
 	
@@ -204,7 +206,7 @@ display:inline-block}
 								}
 	
 									.rayas{
-										width:35%;
+										width:40%;
 										border-top:3px solid rgb(0, 217, 255) ;
 										border-bottom:3px solid rgb(211, 45, 197);
 										padding:0cm
