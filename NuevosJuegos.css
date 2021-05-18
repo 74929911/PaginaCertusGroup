@@ -30,7 +30,19 @@ ul{
 	background:rgb(104, 104, 104)
 	}
 
+	img{
+	
+	}
 
     p{
     color:white
+	
     }
+
+	h4{
+		color: darkturquoise;
+	}
+
+	h3{
+	 margin: top -40px;
+	}
