@@ -153,8 +153,8 @@ height:270px;
 background-image:url(IndexPrincipal/Sin\ título5.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-padding-top:8px;
-padding-bottom:5px;
+padding-top:10px;
+padding-bottom:6px;
 }
 
 .parte4__div{
@@ -191,6 +191,9 @@ color:deepskyblue;
 font-family:'Noto Sans JP', sans-serif;
 }
 
+.parte4__div-p1:hover{
+text-decoration: underline;
+}
 
 .parte4__div-p2{
 color:white;
@@ -206,6 +209,13 @@ height:50%;}
 .parte4__div-div{
 display:flex;
 }
+
+
+
+.noticialink1{
+text-decoration: none;
+}
+
 
 .parte4__div-div-1{
 width:50%;
@@ -223,6 +233,18 @@ font-size:20px;
 color:deepskyblue;
 font-family:'Noto Sans JP', sans-serif;
 }
+
+
+.parte5-1__div-p:hover{
+text-decoration: underline;
+}
+
+
+
+.noticialink2{
+text-decoration: none;
+}
+
 
 .parte5-1_-div-p1{
 color:rgb(255, 255, 255);
@@ -426,12 +448,6 @@ display:flex;
 justify-content:space-evenly;
 }
 
-.dl__dt-a{
-color:white;
-font-size:20px;
-text-decoration: none;
-font-family:'Noto Sans JP', sans-serif;
-}
 
 
 .footer__p{
@@ -440,6 +456,10 @@ font-size:20px;
 text-align:center;
 font-family: 'Press Start 2P', cursive;
 padding:10px
+}
+
+footer{
+background-color:rgb(255, 166, 0)
 }
 
 
