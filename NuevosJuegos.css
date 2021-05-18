@@ -36,6 +36,7 @@ ul{
 
     p{
     color:white
+<<<<<<< HEAD
 	
     }
 
@@ -46,3 +47,14 @@ ul{
 	h3{
 	 margin: top -40px;
 	}
+=======
+    }
+
+    .body{
+    margin-top:40px;
+    }
+
+    body{
+    background-image:url(imagenes/22868.jpg)
+    }
+>>>>>>> f7441c7785ecd4c8248c89e4d70085f550815821
