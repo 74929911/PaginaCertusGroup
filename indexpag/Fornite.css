@@ -33,7 +33,7 @@ background:rgb(104, 104, 104)
 .Fondo1{
 width:1366px;
 height:617px;
-background-image:url(../IndexPrincipal/fondo-fornite1.jpg);
+background-image:url(../IndexPrincipal/fornite/fondoforniteprin.jpg);
 background-size:100% 100%}
 
 
@@ -54,14 +54,16 @@ text-align: center;
 font-weight: bolder;
 }
 
+
+
 .comentariox{
 width:1366px;
-height:700px;
-background-color:rgb(235, 232, 214)
+height:750px;
+background-image:url(../IndexPrincipal/fornite/fornite-fondo.png);
+background-size:contain;
+background-repeat: no-repeat;
+background-color:rgb(231, 216, 152)
 }
-
-
-
 
 
 
@@ -170,7 +172,9 @@ width:600px
 .comentario3{
 width:1366px;
 height:700px;
-background-color:rgb(233, 219, 140)
+background-image:url(../IndexPrincipal/fornite/fornitefondo1.png);
+background-size:100% 100%;
+background-color:rgb(238, 172, 87)
 }
 
 
@@ -180,7 +184,9 @@ background-color:rgb(233, 219, 140)
 .comentario-3{
 float:right;
 position:relative;
-right:20px}
+right:20px;}
+
+
 
 
 .comentario3-1{

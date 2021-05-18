@@ -34,91 +34,63 @@ background:rgb(104, 104, 104)
 .fondo2{
 width:1366px;
 height:640px;
-background-image:url(../IndexPrincipal/fondo2gen.jpg);
-background-size:100% 100%;
-background-color:rgb(251, 255, 217)
-}
+background-image: url(../IndexPrincipal/GenshinImpact/genshin3.jpg);
+background-size:100% 100%}
+
+
 
 .Fondo2__div-h1{
 font-size:60px;
 font-family: 'Anton';
-color:rgb(255, 255, 255);
+color:rgb(0, 0, 0);
 }
 
 .Fondo2__div-p,.Fondo2__div-p1,.Fondo2__div-p2{
 color:rgb(0, 0, 0);
 font-family: 'Rubik', sans-serif;
 box-sizing: border-box;
-font-size:10;
-margin-bottom:12px
+font-size:9;
+margin-bottom:12px;
 }
-
 
 
 .Fondo2__div{
-width:690px;
-font-size:16px;
-font-family:'Noto Sans JP', sans-serif;
-box-sizing: border-box;
 /* margin-right:auto;
-margin-left:auto;
-text-align: center; */
-margin-left:8px
+margin-left:auto; */
+ width:500px;
+/* text-align: center; */
+margin-left:8px;
 }
+
+
+
 
 .Fondo2-1{
 width:1366px;
 height:617px;
-background-image:url(../IndexPrincipal/genshannew2.png);
+background-image:url(../IndexPrincipal/GenshinImpact/genshannew3.png);
 background-size: 100% 100%;
-background-color:rgb(235, 238, 79)
+background-color:rgb(230, 227, 81)
 }
 
 .Fondo2-1__div{
 font-family: 'Rubik', sans-serif;
-box-sizing: border-box;
 font-size:20px;
 width:660px;
 margin-right:30px;
 float:right;
 margin-top:45px;
-color:rgb(0, 0, 0);
-box-sizing: border-box;
 }
+
+
 
 .Fondo2-1__div-p,.Fondo2-1__div-p1,.Fondo2-1__div-p2{
 margin-top:10px;
 margin-bottom:10px;
 font-size:20px;
-color:rgb(0, 0, 0);
+color:rgb(255, 255, 255);
 font-weight: bolder;
 }
-
-/* .barra1{
-width:1366px;
-height:550px;
-background-image:url(../IndexPrincipal/fondogen2.jpg);
-background-size:cover;
-padding-top:80px
-}
-
-
-.Impact2,.Impact1,.Impact3{
-width:430px;
-height:430px;
-position:relative;
-top:20px;
-margin-right:10px;
-margin-left:10px
-}
-
-
-.barra1__div{
-display:flex;
-justify-content: center;
-margin-right:19px
-} */
-
 
 
 
@@ -126,7 +98,7 @@ margin-right:19px
 .Fondo3{
 width:1366px;
 height:617px;
-background-image:url(../IndexPrincipal/genshanew1.png);
+background-image:url(../IndexPrincipal/GenshinImpact/genshannew4.png);
 background-image:100% 100%;
 background-color:rgb(255, 174, 0)
 }
@@ -146,6 +118,7 @@ margin-bottom:10px;
 font-size:20px;
 color:rgb(0, 0, 0);
 font-weight: bolder;
+color:rgb(255, 255, 255)
 }
 
 
