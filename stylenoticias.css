@@ -1,14 +1,14 @@
 
 body{background:url(https://i.pinimg.com/originals/d6/0b/fb/d60bfb79b23c28a2b50270e2bf623ca7.jpg) no-repeat;
-background-size: cover;
-background-attachment:fixed;
+	background-size: cover;
+    background-attachment:fixed;
 	
 }
 
 
 
 
-h5{color: aliceblue;
+h4{color: aliceblue;
 }
 p{color: aqua;
 
@@ -17,7 +17,9 @@ p{color: aqua;
 
 
 .img-center{ position: absolute;
+    left: 580px;
 	transition: width .9s,height .9s
+	
 
 }
 
@@ -56,20 +58,20 @@ ul{
 	}
 	
 	ul li a:hover{
-	background:rgb(61, 61, 61)
+	background:rgb(131, 131, 131)
 	}
 	
 	ul li a:active{
-	background:rgb(104, 104, 104)
+	background:rgb(105, 105, 105)
 	}
 
 
     .primeros{font-size:40px;
-font-family: 'Permanent Marker', cursive;
-color:rgb(8, 253, 253);
-text-align: center;
-text-decoration: none;
-display:inline-block}
+     font-family: 'Permanent Marker', cursive;
+     color:rgb(8, 253, 253);
+     text-align: center;
+     text-decoration: none;
+     display:inline-block}
 
 
 .capitulo1{
@@ -199,7 +201,7 @@ display:inline-block}
 
 								h1{ 
 									font-size:38px;
-									font-family:'Press Start 2P',cursive;
+									font-family:cursive;
 									color:white
 									
 	
@@ -211,9 +213,9 @@ display:inline-block}
 										border-bottom:3px solid rgb(211, 45, 197);
 										padding:0cm
 										box-sizing:border-box;
-										margin-left:8px;
-										display:inline-block;
-										margin-top:40px;
+										margin-left: 8px;
+										display: inline-block;
+										margin-top: 40px;
 	
 									}
 		
