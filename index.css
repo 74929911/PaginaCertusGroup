@@ -30,6 +30,8 @@ ul li a:active{
 background:rgb(104, 104, 104)
 }
 
+/* PRESENTAR PARA EL PROFESOR */
+
 .portada{
 background-image:url(IndexPrincipal/presentacion/StarFlamer.jpg);
 width:100%;
@@ -70,14 +72,13 @@ float:right;
 width:24%;
 margin-top:10px;}
 
+
 .parte3__div-h2{
 font-size:60px;
 font-family: 'Permanent Marker', cursive;
-color:rgb(221, 207, 13);
-margin-bottom:-19px;
-padding:15px;}
-
-
+color:rgb(255, 238, 0);
+margin-top:30px;
+}
 
 
 .parte3__div-p{
@@ -90,10 +91,9 @@ margin-bottom:20px ;
 
 .parte3__div{
 width:100%;
-height:100%;
+height:450PX;
 text-align: center;
-margin-top:40px;
-margin-left:8px;
+margin-left:3px;
 }
 
 
@@ -101,9 +101,10 @@ margin-left:8px;
 width:350px;
 height:250px;
 margin-left:10px;
-box-sizing: border-box;
 transition: width .7s,height .7s
 }
+
+
 .parte3__div-div-img:hover{
 width:370px;
 height:270px;
@@ -111,7 +112,7 @@ box-shadow:0 0 15px white
 }
 
 .parte2__div-h1{
-color:white;
+color:rgb(250, 250, 250);
 font-family:'Anton';
 font-size:35px
 }
@@ -121,7 +122,6 @@ font-size:35px
 width:350px;
 height:250px;
 margin-left:10px;
-box-sizing: border-box;
 transition: width .7s,height .7s
 }
 
@@ -130,20 +130,21 @@ width:370px;
 height:270px;
 box-shadow: 0 0 15px white
 }
+
 .parte3__div-div-img3{
 width:350px;
 height:250px;
 margin-left:10px;
-box-sizing: border-box;
 transition: width .7s,height .7s
 }
+
 
 .parte3__div-div-img3:hover{
 width:370px;
 height:270px;
 box-shadow:0 0 15px white
+} 
 
-}
 
 
 .parte__div-div{
@@ -152,15 +153,20 @@ height:270px;
 background-image:url(IndexPrincipal/Sin\ título5.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-padding-top:8px;
-padding-bottom:5px;
+padding-top:16px;
+display:flex;
+justify-content: center;
 }
+
+
 
 .parte4__div{
 width:1350px;
 height:600px;
 margin-left:8px;
-margin-top:40px;
+background-image:url(IndexPrincipal/GenshinImpact/fondo2.jpg);
+background-size: cover;
+margin-top:30px
 }
 
 
@@ -172,9 +178,7 @@ width:670px;
 font-size:40px;
 font-family: 'Permanent Marker', cursive;
 color:rgb(30, 120, 204);
-text-align: center;
-text-decoration: none;
-display:inline-block;}
+}
 
 
 
@@ -188,10 +192,13 @@ margin-bottom:15px;
 
 .parte4__div-p1{
 font-size:20px;
-color:deepskyblue;
+color:rgb(0, 191, 255);
 font-family:'Noto Sans JP', sans-serif;
 }
 
+.parte4__div-p1:hover{
+text-decoration: underline;
+}
 
 .parte4__div-p2{
 color:white;
@@ -208,6 +215,13 @@ height:50%;}
 display:flex;
 }
 
+
+
+.noticialink1{
+text-decoration: none;
+}
+
+
 .parte4__div-div-1{
 width:50%;
 margin-left:20px;
@@ -221,9 +235,21 @@ margin-top:20px;
 
 .parte5-1__div-p{
 font-size:20px;
-color:deepskyblue;
+color:rgb(0, 191, 255);
 font-family:'Noto Sans JP', sans-serif;
 }
+
+
+.parte5-1__div-p:hover{
+text-decoration: underline;
+}
+
+
+
+.noticialink2{
+text-decoration: none;
+}
+
 
 .parte5-1_-div-p1{
 color:rgb(255, 255, 255);
@@ -264,7 +290,6 @@ margin-right:30px;
 .parte5{
 width:1400px;
 height:400px;
-margin-top:-70px;
 }
 
 .parte5__div-h2{
@@ -374,11 +399,14 @@ margin:5px 0 15px 0;
 }
 
 .parte6{
-width:1400px;
+width:1350px;
 height:600px;
 margin-top:30px;
 margin-left:8px;
-} 
+background-image:url(IndexPrincipal/GenshinImpact/fondo3.jpg);
+background-size:cover;
+margin-bottom:30px
+}
 
 .parte6__div-p1{
 font-size:15px;
@@ -427,20 +455,18 @@ display:flex;
 justify-content:space-evenly;
 }
 
-.dl__dt-a{
-color:white;
-font-size:20px;
-text-decoration: none;
-font-family:'Noto Sans JP', sans-serif;
-}
 
 
 .footer__p{
-color:rgb(0, 225, 255);
+color:rgb(64, 80, 233);
 font-size:20px;
 text-align:center;
 font-family: 'Press Start 2P', cursive;
 padding:10px
+}
+
+footer{
+background-color:rgb(255, 166, 0)
 }
 
 
@@ -451,7 +477,7 @@ padding:0
 
 body{
 margin-top:40px;
-background-color:rgb(24, 24, 24);
+background-color:rgb(24,24,24);
 overflow-x:hidden;
 
 }

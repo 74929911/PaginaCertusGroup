@@ -30,15 +30,24 @@ ul{
 	background:rgb(104, 104, 104)
 	}
 
+	body{
+
+		background-image: url(https://fondosmil.com/fondo/19467.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
 
     p{
     color:white
-    }
 
-    .body{
-    margin-top:40px;
-    }
 
-    body{
-    background-image:url(imagenes/22868.jpg)
-    }
+}
+
+h4{
+	color: darkturquoise;
+}
+
+h3{
+ margin: top -40px;
+}
